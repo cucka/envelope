@@ -17,7 +17,7 @@ function SimpleStyle(){
     return(
         <Wrapper>
             <Title>
-                Hello my friend :)!
+                Hello my friend :) :)!
             </Title>
         </Wrapper>
     );
