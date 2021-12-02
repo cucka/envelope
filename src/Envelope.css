@@ -1,0 +1,31 @@
+html{
+    color: #000;
+    background: #ccc;
+}
+
+.envelope{
+    border: 3px solid #000;
+    display: grid;
+    grid-template-areas: 
+    'fromPerson . stamp'
+    '. toPerson .';
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    height: 396px;
+    width:912px;
+}
+
+.fromPerson{
+    grid-area: fromPerson;
+    margin-left: 1em;
+}
+
+.toPerson{
+    grid-area: toPerson;
+}
+
+.stamp{
+    grid-area: stamp;
+    justify-self: flex-end;
+    margin: 1em 1em 0 0;
+}
